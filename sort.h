@@ -30,4 +30,5 @@ int swap_forward(listint_t **head, listint_t *node);
 int swap_back(listint_t **head, listint_t *node);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
+void merge_sort(int *array, size_t size);
 #endif
